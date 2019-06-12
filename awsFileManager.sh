@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## Environment Variables Dependencies
 #AWS_DEFAULT_REGION
 #AWS_ACCESS_KEY_ID
