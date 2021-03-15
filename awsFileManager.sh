@@ -44,4 +44,4 @@ echo "AWS credentials present!! List of accessible S3 buckets"
 # destination="s3://$AWS_BUCKET_NAME/$2"
 echo "Src: $1"
 echo "Destination: $2"
-aws s3 cp $1 $2
+aws s3 cp $1 $2 --recursive
